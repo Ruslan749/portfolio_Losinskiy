@@ -1,0 +1,109 @@
+.prase{
+    background-color: black;
+    min-height: 1770px;
+    position: relative;
+    padding-bottom: 30px;
+    &__one{
+        text-align: center;
+        padding-top: 70px;
+    }
+    &__two{
+        text-align: end;
+        margin-right: 188px;
+    }
+    &__content{
+        margin-top: 75px;
+        display: grid;
+        grid-template-columns: 697px 612px;
+        grid-template-rows: 960px;
+        column-gap: 129px;
+
+        &_img{
+            margin-top: -135px;
+        }
+        &_services{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: #D1C7AD;
+            border-right-style: solid;
+        }
+        &_service{
+            position: relative;
+            margin-right: 32px;
+            display: flex;
+            &-img{
+                width: 60px;
+                height: 60px;
+                margin-right: 40px;
+            }
+
+            &-text{
+                font-family: Circe-Bold;
+                font-size: 24px;
+                color: #FFFFFF;
+
+
+            }
+        }
+    }
+
+    &__cards{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__card{
+        width: 380px;
+        height: 500px;
+        background: linear-gradient(180deg, rgba(113, 102, 73, 0.87) 2.21%, rgba(147, 131, 89, 0.25) 72%);
+        position: relative;
+        margin-top: 195px;
+        &_title{
+            font-family: CormorantSC-Regular, sans-serif;
+            font-size: 48px;
+            color: #FFFFFF;
+            line-height: 58px;
+            text-align: center;
+            padding-top: 25px;
+        }
+        &_works{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 192px;
+            margin-top: 20px;
+        }
+        &_work{
+            font-family: Circe-Bold, serif;
+            font-size: 18px;
+            color: #FFFFFF;
+            margin-left: 35px;
+            &-star{
+               width: 26px;
+               height: 26px;
+               margin-right: 24px;
+            }
+        }
+        &_prase{
+            display: block;
+            position: absolute;
+            font-family: CormorantSC-Regular,sans-serif;
+            font-size: 70px;
+            color: #FFFFFF;
+            bottom: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 250px;
+        }
+        &_botton{
+            position: absolute;
+            bottom: 45px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 223px;
+            height: 44px;
+            font-size: 24px;
+        }
+    }
+
+}

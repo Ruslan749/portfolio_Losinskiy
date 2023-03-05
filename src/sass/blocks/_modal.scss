@@ -1,0 +1,106 @@
+.modal{
+        width: 100%;
+        height: 100%;
+        background: rgba(196, 196, 196, 0.7);
+        display: none;
+        position: fixed;
+        right: 0;
+        top: 0;
+        opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+        transition: 1s; /*Скорость перехода состояния элемента*/
+        animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+        animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+        animation-delay: 0.3s; /* Задержка перед началом */
+        &__window{
+            width: 800px;
+            height: 800px;
+            position: relative;
+            margin: 60px auto;
+
+        
+        }
+        &__subtitle-one{
+            position: absolute;
+            top: 58px;
+            left: 50%;
+            text-align: center;
+            transform: translateX(-50%);
+            width: 700px;
+            font-size: 36px;
+        }
+
+        &__subtitle-two{
+            position: absolute;
+            bottom: 144px;
+            left: 50%;
+            text-align: center;
+            transform: translateX(-50%);
+            width: 700px;
+            font-size: 36px;
+        }
+        &__form{
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &__input{
+            width: 572px;
+            height: 70px;
+            border-radius: 20px;
+            font-size: 40px;
+            text-align: center;
+            &-container{
+                display: flex;
+                margin-top: 30px;
+            }
+            &-text{
+                margin: auto;
+                padding-right: 25px;
+                font-size: 36px;
+            }
+        }
+
+        &__icons{
+            position: absolute;
+            bottom: 65px;
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 0;
+        }
+    
+}
+.close{
+    display: block;
+    position: absolute;
+    right: 43px;
+    top: 60px;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 100%;
+    span{
+        display: block;
+        width: 40px;
+        height: 5px;
+        background-color: #000;
+        margin-bottom: 23px;
+        margin-left: 10px;
+        &:nth-child(1){
+            transform: translateY(29px) rotate(-45deg);
+        }                 
+        &:nth-child(2){
+            transform: translateY(2px)  rotate(45deg);
+    }
+}
+}
+.status{
+    font-size: 50px;
+    text-align: center;
+    color: #dedf9c;
+    font-style: bold;
+    position: relative;
+    height: 20px;
+
+}

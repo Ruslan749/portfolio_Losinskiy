@@ -1,0 +1,52 @@
+.about{
+    background-color: black;
+    position: relative;
+    min-height: 1000px;
+    &__img{
+        display: grid;
+        grid-template-columns: 310px 400px 400px;
+        grid-template-rows: 600px;
+        padding-top: 140px;
+        column-gap: 132px;
+    }
+    &__titleOne{
+        display: block;
+        padding-left: 50px;
+    }
+    &__titleTwo{
+        padding-left: 365px;
+    }
+    &__titleThre{
+        display: block;
+        padding-left: 730px;
+    }
+    &__text{
+        width: 440px;
+        height: 131px;
+        margin-top: 36px;
+    }
+    &__title{
+        position: absolute;
+        bottom: 100px;
+    }
+    &__foto1{
+        width: 309px;
+        height: 311px;
+        padding-left: 50px;
+
+    }
+    &__foto2{
+        width: 414px;
+        height: 520px;
+        margin-top: 36px;
+    }
+    &__doptitle{
+        display: block;
+        text-align: end;
+    }
+    &__span{
+
+    left: -70px;
+    bottom: 87px;
+    }
+}

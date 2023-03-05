@@ -1,0 +1,97 @@
+.portfolio{
+    background-color: black;
+    min-height: 1255px;
+    position: relative;
+    &__text{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        z-index: 1;
+    }
+    &__span{
+        left: 403px;
+        width: 199px;
+        top: 30px;
+    }
+    &__textOne{
+        margin-left: 50px;
+        padding-top: 140px;
+    }
+    &__textTwo{
+        margin-left: 171px;
+    }
+    &__subtitle{
+        display: block;
+        width: 536px;
+        height: 136px;
+        margin-top: 179px;
+    }
+
+    &__img{
+        display: grid;
+        grid-template-rows: 860px;
+        grid-template-columns: 594px 513px;
+        column-gap: 326px;
+        position: absolute;
+        top: 374px;
+        &-left{
+            height: 594px;
+            &-text{
+                margin-top: 120px;
+            }
+        }
+        &-right{
+            position: relative;
+            display: grid;
+        }
+        &-one{
+            height: 582px;
+        }
+        &-two{
+            height: 443px;
+            width: 385px;
+            position: absolute;
+            top: 260px;
+            left: 65px;;
+        }
+        &-text{
+            bottom: 20px;
+            display: block;
+            position: absolute;
+            left: 65px;
+        }
+    }
+}
+
+.slaider{
+    width: 1440px;
+    height: 1262px;
+}
+
+
+
+//стрелочка
+.arrow-3 {
+    color: #D1C7AD;
+    cursor: pointer;
+    // text-decoration: none;
+    font-size: 24px;
+
+}
+.arrow-3 .arrow-3-icon {
+    position: relative;
+    top: -1px;
+    transition: transform 0.3s ease;
+    vertical-align: middle;
+}
+.arrow-3 .arrow-3-iconcircle {
+    transition: stroke-dashoffset .3s ease;
+    stroke-dasharray: 95;
+    stroke-dashoffset: 95;
+}
+.arrow-3:hover .arrow-3-icon {
+    transform: translate3d(5px, 0, 0);
+}
+.arrow-3:hover .arrow-3-iconcircle {
+    stroke-dashoffset: 0;
+}
