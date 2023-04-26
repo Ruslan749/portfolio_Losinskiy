@@ -13,8 +13,6 @@
 @import 'blocks/modal';
 
 
-@import 'media/media_container.scss';
-@import 'media/media_menu.scss';
 
 * {
     margin: 0;
@@ -22,3 +20,8 @@
     
 }
 
+.container{
+    width: 1440px;
+    margin: 0 auto;
+
+}
