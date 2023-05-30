@@ -1,0 +1,258 @@
+@media (max-width: 20000px){
+    .container{
+        width: 1190px;
+        margin: 0 auto;
+
+    }
+
+    .menu{
+
+        &__title{
+            padding: 585px 0px 40px 50px;
+        }
+
+        &__icons{
+            top: 45%;
+        }
+
+        &__icons_divaidar{
+            margin-left: 1px;
+        }
+        
+        &__navigation__icons{
+            margin-left: 10px;
+        }
+
+        &__navigation__list{
+            list-style-type: none;
+            padding-left: 23px;
+            display: grid;
+            grid-template-columns: 30%;
+            grid-template-rows: repeat(6, auto);
+            gap: 46px;
+            margin-left: 30px;
+            margin-top: 99px;
+        }
+    }
+}
+
+@media (max-width: 1200px){
+    .container{
+        width: 980px;
+        margin: 0 auto;
+
+    }
+
+    .menu{
+
+        &__title{
+            padding: 486px 0px 54px 241px;
+        }
+
+        &__region{
+            display: block;
+            padding-left: 166px;
+            line-height: 85px;
+        }
+
+        &__icons{
+            top: 75%;
+        }
+
+        &__icons_divaidar{
+            margin-left: 1px;
+        }
+
+        &__navigation__icons{
+            height: 79px;
+            width: 329px;
+            margin-left: 23px;
+            margin-top: 40px;
+        }
+
+        .menu__navigation_list{
+            padding-left: 23px;
+            grid-template-columns: 30%;
+            gap: 46px;
+            margin-left: 30px;
+            margin-top: 99px;
+        }
+    }
+}
+
+
+
+@media (max-width: 991px){
+    .container{
+        width: 740px;
+        margin: 0 auto;
+
+    }
+
+    .menu{
+
+        &__title{
+            padding: 590px 0px 18px 117px;
+        }
+
+        &__region{
+            display: block;
+            padding-left: 109px;
+            line-height: 85px;
+        }
+
+        &__icons{
+            top: 80%;
+            right: -28px;
+        }
+
+        &__icons_divaidar{
+            margin-left: 1px;
+        }
+
+        .menu__navigation_list{
+            padding-left: -17px;
+            margin-left: 29px;
+            grid-template-columns: 40%;
+        }
+
+        &__navigation__icons{
+            height: 62px;
+    width: 257px;
+    margin-left: 59px;
+        }
+
+        &__logo-img{
+            width: 80%;
+            height: 80%;
+        }
+
+        &__navigation_overlay{
+            width: 50%;
+        }
+
+    }
+} 
+
+@media (max-width: 750px){
+    .container{
+        width: 560px;
+        margin: 0 auto;
+
+    }
+
+    .menu{
+        min-height: 91vh;
+
+        &__title{
+            padding: 600px 0px 18px 2px;
+        }
+        
+        &__region{
+            display: none;
+        }
+
+        &__icons_divaidar{
+            margin-left: 1px;
+        }
+
+        .menu__navigation_list{
+            padding-left: -17px;
+            margin-left: 19px;
+            margin-left: -37px;
+            grid-template-columns: 50%;
+        }
+
+        &__navigation_overlay{
+            width: 50%;
+            height: 100%;
+        }
+
+        &__navigation__icons{
+            height: 62px;
+            width: 257px;
+            margin-left: 11px;
+        }
+
+        &__logo-img{
+            width: 70%;
+            height: 70%;
+        }
+    }
+
+}
+
+@media (max-width: 575px){
+    .container{
+        width: 320px;
+        margin: 0 auto;
+
+    }
+
+    .menu{
+        min-height: 59vh;
+
+        &__title{
+            padding: 313px 19px 0px 40px;
+            font-size: 68px;
+        }
+        
+        &__region{
+            display: none;
+        }
+
+        &__logo-img{
+            width: 70%;
+            height: 70%;
+            left: -134;
+        }
+
+        .burger{
+            width: 34px;
+            height: 34px;
+            top: 168px;
+            right: 52px;
+        }
+
+        &__button{
+            width: 204px;
+            height: 72px;
+            font-size: 25px;
+        }
+
+        &__icons_divaidar{
+            margin-left: 1px;
+        }
+
+        .menu__navigation_list{
+            padding-left: -17px;
+            margin-left: 19px;
+            margin-left: -37px;
+    grid-template-columns: 100%;
+        }
+
+        &__navigation_overlay{
+            width: 30%;
+            height: 100%;
+            display: none;
+        }
+
+        &__navigation__icons{
+            height: 46px;
+            width: 215px;
+            margin-left: 57px;
+        }
+
+        &__logo-img{
+            width: 60%;
+            height: 60%;
+        }
+
+        &__logo{
+            display: block;
+    width: 303px;
+    height: 97px;
+    padding: 49px 0px 0px 5px;
+        }
+    }
+}

@@ -1,0 +1,336 @@
+@media (max-width: 20000px){
+    .container{
+        width: 1190px;
+        margin: 0 auto;
+
+    }
+
+    .portfolio{
+
+        &__img{
+            grid-template-columns: 594px 77px;
+        }
+
+        &__textOne{
+            margin-left: 50px;
+            padding-top: 99px;
+        }
+    
+        &__subtitle{
+            display: block;
+            width: 536px;
+            height: 136px;
+            margin-top: 123px;
+            margin-left: 68px;
+        }
+  
+        &__subtitle{
+            display: block;
+            width: 536px;
+            height: 136px;
+            margin-top: 257px;
+        }
+   
+        &__img-one{
+            height: 663px;
+            width: 427px;
+            left: -223px;
+            position: absolute;
+            top: 31px;
+            left: -267px;
+        }
+   
+        &__img-two{
+            height: 487px;
+            width: 337px;
+            position: absolute;
+            top: 307px;
+            left: -224px;
+        }
+    
+        &__img-text{
+            bottom: 16px;
+            display: block;
+            position: absolute;
+            left: -198px;
+        }
+
+        &__span{
+            left: 91px;
+            width: 207px;
+            top: 84px;
+        }
+    }   
+}
+
+@media (max-width: 1200px){
+    .container{
+        width: 980px;
+        margin: 0 auto;
+
+    }
+
+    .portfolio{
+
+        &__img{
+            grid-template-columns: 420px 74px;
+            column-gap: 489px;
+        }
+
+        &__img-one{
+            height: 388px;
+    width: 356px;
+    left: -223px;
+    position: absolute;
+    top: 230px;
+    left: -312px;
+        }
+
+        &__img-two{
+            height: 343px;
+    width: 206px;
+    position: absolute;
+    top: 337px;
+    left: -237px;
+        }
+
+        &__img-text{
+            left: -239px;
+            bottom: 103px;
+        }
+
+        &__subtitle{
+            display: block;
+    width: 525px;
+    height: 131px;
+    margin-top: 369px;
+    margin-left: -209px;
+        }
+
+        &__span{
+            left: -35px;
+            width: 207px;
+            top: 141px;
+        }
+
+        &__textTwo{
+            margin-left: 386px;
+        }
+
+        &__img-left-text{
+            margin-top: 13px;
+        }
+
+        &__span{
+            left: -49px;
+        }
+    }
+}
+
+@media (max-width: 991px){
+    .container{
+        width: 740px;
+        margin: 0 auto;
+
+    }
+
+    .portfolio{
+
+        &__subtitle{
+            margin-left: -263px;
+    margin-top: 355px;
+        }
+
+        &__textOne{
+            margin-left: -4px;
+        }
+        
+        &__textTwo{
+            margin-left: 317px;
+        }
+
+        &__img{
+            grid-template-rows: 845px;
+            grid-template-columns: 320px 0px;
+            column-gap: 326px;
+            top: 374px;
+        }
+
+        &__img-one{
+            height: 374px;
+    width: 273px;
+    left: -223px;
+    top: 262px;
+    left: -175px;
+        }
+
+        &__img-two{
+            height: 285px;
+    width: 190px;
+    top: 421px;
+    left: -135px;
+        }
+
+        &__img-text{
+            left: -264px;
+            bottom: 58px;
+        }
+
+        &__span{
+            left: -115px;
+            width: 207px;
+            top: 84px;
+            display: none;
+        }
+    }
+} 
+
+@media (max-width: 750px){
+    .container{
+        width: 560px;
+        margin: 0 auto;
+
+    }
+
+    .portfolio{
+        min-height: 2074px;
+
+        &__subtitle{
+            margin-left: -511px;
+            font-size: 22px;
+            margin-top: 1037px;
+        }
+
+        &__textOne{
+            margin-left: 27px;
+            font-size: 120px;
+            padding-top: 4px;
+        }
+        
+        &__textTwo{
+            margin-left: 201px;
+            font-size: 120px;
+        }
+
+        &__img{
+            grid-template-rows: 845px;
+            grid-template-columns: 316px 0px;
+            column-gap: 255px;
+            top: 374px;
+        }
+
+        &__img-one{
+            height: 605px;
+            width: 506px;
+            left: -223px;
+            top: -57px;
+            left: -548px;
+        }
+
+        &__img-two{
+            height: 441px;
+            width: 360px;
+            top: 205px;
+            left: -477px;
+        }
+
+        &__img-text{
+            left: -379px;
+            top: 1581px;
+        
+        }
+
+        &__img-left{
+            margin-top: 843px;
+            margin-right: -238px;
+            left: -341px;
+            
+        }
+
+        &__img-left-text{
+            margin-top: 6px;
+        }
+
+        &__span{
+            left: -115px;
+            width: 207px;
+            top: 84px;
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 575px){
+    .container{
+        width: 320px;
+        margin: 0 auto;
+
+    }
+
+    .portfolio{
+        min-height: 2074px;
+
+        &__subtitle{
+            margin-left: -299px;
+            font-size: 16px;
+            margin-top: 865px;
+        }
+
+        &__textOne{
+            margin-left: 12px;
+            font-size: 80px;
+            padding-top: 4px;
+        }
+        
+        &__textTwo{
+            margin-left: 70px;
+            font-size: 80px;
+        }
+
+        &__img{
+            grid-template-rows: 845px;
+            grid-template-columns: 194px 0px;
+            column-gap: 125px;
+            top: 374px;
+        }
+
+        &__img-one{
+            height: 499px;
+            width: 297px;
+            left: -223px;
+            top: -94px;
+            left: -306px;
+        }
+
+        &__img-two{
+            height: 316px;
+            width: 202px;
+            top: 162px;
+            left: -260px;
+        }
+
+        &__img-text{
+            left: -320px;
+            top: 1424px;
+        
+        }
+
+        &__img-left{
+            margin-top: 619px;
+            margin-right: -126px;
+            left: -341px;
+            
+        }
+
+        &__img-left-text{
+            margin-top: 6px;
+        }
+
+        &__span{
+            left: -115px;
+            width: 207px;
+            top: 84px;
+            display: none;
+        }
+    }
+}

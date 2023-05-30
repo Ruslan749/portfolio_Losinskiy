@@ -1,0 +1,213 @@
+@media (max-width: 20000px){
+    .container{
+        width: 1190px;
+        margin: 0 auto;
+
+    }
+
+    .input{
+        
+        &__form{
+            margin-right: 103px;
+        }
+
+        &__button{
+            margin-right: 333px;
+        }
+
+        &__icons{
+            margin: 60px auto;
+            display: flex;
+            height: 74px;
+            width: 311px;
+        }
+
+        &__title{
+            padding-top: 61px;
+        }
+        
+    }
+}
+
+@media (max-width: 1200px){
+    .container{
+        width: 980px;
+        margin: 0 auto;
+
+    }
+
+    .input{
+        
+        &__title{
+            font-size: 104px;
+        }
+
+        &__subtitle{
+            font-size: 70px;
+        }
+
+        &__form{
+            margin-right: 103px;
+            
+        }
+            &__input{
+                width: 396px;
+                height: 85px;
+                margin-top: 24px;
+            }
+
+        &__button{
+            margin-right: 222px;
+        }
+        
+        &__subtitle{
+            font-size: 60px;
+        }
+
+        &__icons{
+            margin: 60px auto;
+            display: flex;
+            height: 74px;
+            width: 311px;
+        }
+    }
+
+}
+
+@media (max-width: 991px){
+    .container{
+        width: 740px;
+        margin: 0 auto;
+
+    }
+
+    .input{
+        
+        &__title{
+            font-size: 90px;
+    margin-top: -176px;
+        }
+
+        &__subtitle{
+            font-size: 40px;
+        }
+
+        &__form{
+            margin-right: 103px;
+            
+            
+        }
+            &__input{
+                width: 362px;
+                height: 95px;
+            }
+
+        &__button{
+            margin-right: 100px;
+        }
+        
+        &__subtitle{
+            font-size: 50px;
+        }
+
+        &__icons{
+            margin: 60px auto;
+            display: flex;
+            height: 74px;
+            width: 311px;
+        }
+    }
+} 
+
+@media (max-width: 750px){
+    .container{
+        width: 560px;
+        margin: 0 auto;
+
+    }
+
+    .input{
+        
+        &__title{
+            font-size: 90px;
+        }
+
+        &__subtitle{
+            font-size: 40px;
+        }
+
+        &__form{
+            margin-right: 103px;
+            
+            
+        }
+            &__input{
+                width: 362px;
+                height: 95px;
+            }
+
+        &__button{
+            margin-right: 5px;
+        }
+        
+        &__subtitle{
+            font-size: 50px;
+        }
+
+        &__icons{
+            margin: 60px auto;
+            display: flex;
+            height: 74px;
+            width: 311px;
+        }
+    }
+
+}
+
+@media (max-width: 575px){
+    .container{
+        width: 320px;
+        margin: 0 auto;
+
+    }
+
+    .input{
+        
+        &__title{
+            font-size: 50px;
+        }
+
+        &__subtitle{
+            font-size: 30px;
+        }
+
+        &__form{
+            margin-left: -124px;
+            font-size: 3px;
+            text-align: center;
+            
+        }
+            &__input{
+                width: 293px;
+                height: 60px;
+                margin-right: -124px;
+                text-align: center;
+                font-size: 30px;
+            }
+
+        &__button{
+            margin-right: -76px;
+            font-size: 30px;
+            width: 269px;
+            height: 60px;
+        }
+
+        &__icons{
+            margin: 60px auto;
+            display: flex;
+            height: 74px;
+            width: 311px;
+        }
+    }
+
+}
