@@ -1,0 +1,260 @@
+@media (max-width: 20000px){
+    .container{
+        width: 1190px;
+        margin: 0 auto;
+
+    }
+    .about{
+        &__img{
+            grid-template-columns: 262px 400px 400px;
+            grid-template-rows: 625px;
+            padding-top: 143px;
+            column-gap: 67px;
+        }
+    
+        &__foto1{
+            width: 272px;
+            height: 341px;
+            padding-left: -34px;
+        }
+    
+        &__foto2{
+            width: 391px;
+    height: 520px;
+    margin-top: 101px;
+        }
+
+        &__titleTwo{
+            padding-left: 207px;
+        }
+
+        &__titleThre{
+            padding-left: 511px;
+        }
+    }
+}
+
+@media (max-width: 1200px){
+    .container{
+        width: 980px;
+        margin: 0 auto;
+
+    }
+
+    .about{
+        &__img{
+            grid-template-columns: 262px 400px 400px;
+            grid-template-rows: 625px;
+            padding-top: 143px;
+            column-gap: 58px;
+        }
+
+        &__foto1{
+            width: 250px;
+            height: 337px;
+            padding-left: -34px;
+        }
+
+        &__titleThre{
+            padding-left: 290px;
+        }
+
+        &__foto2{
+            width: 197px;
+    height: 520px;
+    margin-top: 101px;
+        }
+
+        
+    }
+
+}
+
+@media (max-width: 991px){
+    .container{
+        width: 740px;
+        margin: 0 auto;
+
+    }
+
+    .about{
+
+        &__img{
+            grid-template-columns: 207px 264px 386px;
+            grid-template-rows: 639px;
+            padding-top: 157px;
+            column-gap: -26px;
+        }
+
+        &__foto1{
+            width: 203px;
+            height: 337px;
+            padding-left: -34px;
+        }
+
+        &__foto2{
+            width: 128px;
+            height: 600px;
+        }
+
+        &__text{
+            width: 297px;
+            height: 200px;
+            margin-top: 38px;
+        }
+
+        &__title{
+            bottom: 167px;
+        }
+        
+        &__titleOne{
+            font-size: 100px;
+            line-height: 100px;
+        }
+
+        &__titleTwo{
+            font-size: 100px;
+            line-height: 100px;
+            padding-left: 158px;
+        }
+
+        &__titleThre{
+            font-size: 100px;
+            line-height: 100px;
+            padding-left: 191px;
+        }
+
+        &__span{
+            left: -75px;
+            bottom: 73px;
+        }
+
+    
+    }
+    
+} 
+
+@media (max-width: 750px){
+    .container{
+        width: 560px;
+        margin: 0 auto;
+
+    }
+
+    
+
+    .about{
+
+        &__img{
+            grid-template-columns: 3px 316px 536px;
+            grid-template-rows: 710px;
+            padding-top: 283px;
+            column-gap: -15px;
+            font-size: 50px;
+        }
+
+        &__text{
+            width: 459px;
+            height: 283px;
+            margin-top: 497px;
+
+        }
+
+        &__foto1{
+            width: 477px;
+            height: 473px;
+            padding-left: -34px;
+        }
+
+        &__foto2{
+            width: 100px;
+            height: 419px;
+            margin-top: 80px;
+            display: none;
+        }
+
+        &__title{
+            bottom: 721px;
+        }
+
+        &__titleOne{
+            font-size: 70px;
+            line-height: 100px;
+            display: none;
+        }
+
+        &__titleTwo{
+            line-height: 100px;
+            padding-left: 76px;
+        }
+
+        &__titleThre{
+            font-size: 90px;
+        }
+
+        &__span{
+            left: -76px;
+            bottom: 133px;
+        }
+    }
+}
+
+@media (max-width: 575px){
+    .container{
+        width: 320px;
+        margin: 0 auto;
+
+    }
+
+    .about{
+
+        &__img{
+            grid-template-columns: -10px 120px 386px;
+            grid-template-rows: 639px;
+            padding-top: 296px;
+            column-gap: 6px;
+            font-size: 50px;
+        }
+
+        &__foto1{
+            width: 318px;
+            height: 479px;
+            padding-left: 0px;
+        }
+
+        &__foto2{
+            width: 73px;
+            height: 378px;
+            margin-top: 87px;
+            display: none;
+        }
+
+        &__text{
+            width: 302px;
+        }
+
+        &__titleOne{
+            font-size: 57px;
+            line-height: 100px;
+            display: none;
+
+        }
+
+        &__titleTwo{
+            font-size: 70px;
+            padding-left: 21px;
+        }
+
+        &__titleThre{
+            font-size: 70px;
+            padding-left: 46px;
+        }
+
+        &__span{
+            left: -128px;
+            bottom: 133px;
+        }
+
+        
+    }
+}

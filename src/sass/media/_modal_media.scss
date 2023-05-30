@@ -1,0 +1,142 @@
+@media (max-width: 20000px){
+    .container{
+        width: 1190px;
+        margin: 0 auto;
+
+    }
+
+    .modal{
+        &__navigation__icons{
+            margin-left: 0px;
+        }
+
+        .input__button{
+            margin-right: 175px;
+        }
+
+    }
+}
+
+
+@media (max-width: 1200px){
+    .container{
+        width: 980px;
+        margin: 0 auto;
+
+    }
+
+    .modal{
+        .menu__navigation__icons{
+            margin-left: 0px;
+        }
+
+    }
+
+}
+
+
+@media (max-width: 991px){
+    .container{
+        width: 740px;
+        margin: 0 auto;
+
+    }
+
+    .modal{
+        .menu__navigation__icons{
+            margin-left: 0px;
+        }
+
+        &__window{
+            width: 734px;
+    height: 800px;
+        }
+
+        &__input{
+            width: 501px;
+    height: 70px;
+        }
+
+    }
+}
+
+
+@media (max-width: 750px){
+    .container{
+        width: 560px;
+        margin: 0 auto;
+
+    }
+
+    .modal{
+
+        &__window{
+            width: 572px;
+            height: 800px;
+        }
+
+        &__subtitle-one{
+            width: 601px;
+        }
+
+        &__subtitle-two{
+            width: 605px;
+        }
+
+        &__input{
+            width: 361px;
+        }
+
+        .input__button{
+            margin-right: 78px;
+        }
+    }
+
+}
+
+@media (max-width: 575px){
+    .container{
+        width: 320px;
+        margin: 0 auto;
+
+    }
+
+    .modal{
+
+        &__window{
+            width: 320px;
+    height: 800px;
+        }
+
+        &__subtitle-one{
+            width: 301px;
+            top: 76px;
+    font-size: 25px;
+        }
+
+        .modal__subtitle-two{
+            width: 333px;
+    font-size: 25px;
+        }
+
+        &__subtitle-two{
+            width: 405px;
+        }
+
+        &__input-text{
+            font-size: 25px;
+        }
+
+        &__input{
+            width: 170px;
+    font-size: 20px;
+        }
+
+        .input__button{
+            margin-right: 26px;
+    font-size: 30px;
+    width: 251px;
+    height: 60px;
+        }
+    }
+}

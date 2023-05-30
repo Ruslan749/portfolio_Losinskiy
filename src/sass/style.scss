@@ -12,7 +12,13 @@
 @import 'blocks/input';
 @import 'blocks/modal';
 
-
+@import 'media/about_media';
+@import 'media/input_media';
+@import 'media/modal_media';
+@import 'media/plan_media';
+@import 'media/portfolio_media';
+@import 'media/prase_media';
+@import 'media/_menu_media.scss';
 
 * {
     margin: 0;
@@ -20,8 +26,7 @@
     
 }
 
-.container{
-    width: 1440px;
-    margin: 0 auto;
-
-}
+// .container{
+//     width: 1440px;
+//     margin: 0 auto;
+// }
